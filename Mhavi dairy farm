@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mhavi Dairy Farm | Organic Buffalo Milk & Dairy</title>
+<meta name="description" content="Mhavi Dairy Farm, Ramnagar Van Jaspur Uttarakhand. Organic buffalo milk, ghee, paneer & curd. Fresh, hygienic dairy products.">
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0b1220;color:#eef2ff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{max-width:1100px;margin:auto;padding:20px}
+header{background:linear-gradient(135deg,#7dd3fc,#34d399);color:#071427}
+nav{display:flex;justify-content:space-between;align-items:center;padding:15px 0}
+nav strong{font-size:20px}
+nav a{margin-left:15px;font-weight:600}
+.hero{padding:60px 20px;text-align:center}
+.hero h1{font-size:40px;margin-bottom:10px}
+.hero p{font-size:18px}
+.btn{display:inline-block;padding:12px 18px;border-radius:25px;background:#071427;color:#fff;font-weight:700;margin:10px}
+section{padding:50px 0}
+.card{background:#0f1a33;border-radius:16px;padding:20px;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+footer{background:#0f1a33;padding:30px 0;margin-top:40px}
+small{color:#a8b3cf}
+iframe{width:100%;border-radius:16px;border:0}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<strong>🐄 Mhavi Dairy Farm</strong>
+<div>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<div class="hero">
+<h1>Pure Organic Buffalo Dairy</h1>
+<p>Fresh milk & dairy directly from our farm in Ramnagar Van, Jaspur (Uttarakhand)</p>
+<a class="btn" href="tel:07906065231">📞 Call Now</a>
+<a class="btn" href="https://wa.me/917906065231">💬 WhatsApp</a>
+</div>
+</div>
+</header>
+
+<section id="about">
+<div class="container">
+<h2>About Mhavi Dairy Farm</h2>
+<div class="card">
+<p>
+Mhavi Dairy Farm is a family-run dairy farm located in <b>Ramnagar Van, Jaspur, Uttarakhand (244712)</b>.
+We specialize in <b>organic buffalo milk</b> and traditional dairy products made with care, hygiene,
+and love for animals.
+</p>
+<ul>
+<li>🐃 Healthy buffaloes & natural feed</li>
+<li>🧼 Hygienic milking & storage</li>
+<li>🥛 Fresh daily supply</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="products">
+<div class="container">
+<h2>Our Products</h2>
+<div class="grid">
+<div class="card">
+<h3>🥛 Organic Buffalo Milk</h3>
+<p>Fresh, thick & nutritious buffalo milk supplied daily.</p>
+</div>
+<div class="card">
+<h3>🧈 Pure Desi Ghee</h3>
+<p>Traditional ghee prepared from organic buffalo milk.</p>
+</div>
+<div class="card">
+<h3>🧀 Fresh Paneer</h3>
+<p>Soft, fresh paneer made on order.</p>
+</div>
+<div class="card">
+<h3>🍶 Fresh Curd</h3>
+<p>Natural curd with rich taste and thickness.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<h2>Contact Us</h2>
+
+<div class="grid">
+<div class="card">
+<p><b>📍 Address:</b><br>
+Ramnagar Van, Jaspur<br>
+Uttarakhand – 244712</p>
+
+<p><b>📞 Phone:</b><br>
+<a href="tel:07906065231">07906065231</a></p>
+
+<p><b>✉️ Email:</b><br>
+<a href="mailto:manjeetbajwa548@gmail.com">manjeetbajwa548@gmail.com</a></p>
+
+<a class="btn" href="https://wa.me/917906065231">WhatsApp Enquiry</a>
+</div>
+
+<div class="card">
+<h3>Find Us on Google Maps</h3>
+<iframe 
+src="https://www.google.com/maps?q=Ramnagar%20Van%20Jaspur%20Uttarakhand&output=embed"
+loading="lazy"></iframe>
+<p style="margin-top:10px">
+<a href="https://maps.app.goo.gl/bQYe7vfCDQQr5qBP6" target="_blank">
+📍 Open in Google Maps
+</a>
+</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p><strong>Mhavi Dairy Farm</strong></p>
+<small>© <span id="year"></span> Mhavi Dairy Farm. All rights reserved.</small>
+</div>
+</footer>
+
+<script>
+document.getElementById("year").innerText=new Date().getFullYear();
+</script>
+
+</body>
+</html>
